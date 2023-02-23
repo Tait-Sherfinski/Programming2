@@ -1,31 +1,35 @@
 class Shape:
-  # Constructor sets up class data
+  # Constructor: set up class data
   def __init__(self, length, width):
     self.length = length
     self.width = width
-    self.area = 0
-    self.perim = 0
+    self._area = 0   # _ prefix basically means 'private' so
+    self._perim = 0  # it should only be called in the class
 
-# mutator modifies class data
-def calculate(self):
-  self.area = self.length * self.width
-  self.perim = 2 * self.length + 2 * self.width
+  # Mutator/Setter: modifies class data
+  def calculate(self):
+    self._area = self.length * self.width
+    self._perim = 2 * self.length + 2 * self.width
 
-# accesors/getters return class data
-def getArea(self):
-  return self.area
+  def setLength(self, length):
+    self.length = length
 
-def getPerim(self):
-  return self.perim
+  # Accessor/Getters: return class data
+  def getArea(self):
+    return self._area
+
+  def getPerimeter(self):
+    return self._perim
 
 
 def main():
-  len = int(input("Enter Legth: "))
-  wid = int(input("Enter Width: "))
-  shape = Shape(len, wid) # call shape instructor
+  len = int(input("Enter length: "))
+  wid = int(input("Enter width: "))
+  shape = Shape(len, wid)  # Call "Shape" constructor
+  # shape.setLength(5)
   shape.calculate()
   print("Area:", shape.getArea())
-  print("Perimeter:", shape.getPerim())
+  print("Perimeter:", shape.getPerimeter())
 
-if __name__ == "__main_":
+if __name__ == "__main__":
   main()
