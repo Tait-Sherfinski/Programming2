@@ -10,15 +10,16 @@ class Salesperson:
         self.comm = self.sales * 0.095
       else:
         self.comm = 3500 * 0.095 + (self.sales-3500) * 0.12
-        
+    
   def __init__(self, id, code, sales):
     self.id = id
     self.code = code
     self.sales = sales
     self.comm = 0
 
-def setComm(self):
-  self.__calc()
+  def setComm(self):
+    self.__calc()
 
-def __str__(self):
-  return f"{self.id}"
+  # Override the str() Dunder/Magic method (toString)
+  def __str__(self):
+    return f"{self.id}\t\t{self.code}\t\t{self.sales}\t{self.comm}"
