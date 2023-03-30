@@ -24,4 +24,4 @@ if age > 79:
   distribution = 2
   percentage = 11.76
 
-print("Age Group: " + group + "Distribution: " + str(distribution) + "Percentage: " + str(percentage))
+print("Age Group: " + group + '\t' + "Distribution: " + str(distribution) + '\t' "Percentage: " + str(percentage))
