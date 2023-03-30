@@ -22,11 +22,11 @@ def main():
           people.append(p)
         num = int(f.readline())
 
-      tot = 0.0
-      cnt = 0
-      totstus = 0
-      large = ""
-      sm = "kgjslkfdjglkfdjglkdjfglkjdgflkjdfskgljglkjlkgdjsklgjdsklgjldsglkjfdslkgsdjglksdjglkdsjgkljdslkgjdflkgjlkdjglkdsjklsdj"
+        tot = 0.0
+        cnt = 0
+        totstus = 0
+        large = ""
+        sm = "kgjslkfdjglkfdjglkdjfglkjdgflkjdfskgljglkjlkgdjsklgjdsklgjldsglkjfdslkgsdjglksdjglkdsjgkljdslkgjdflkgjlkdjglkdsjklsdj"
 
     for person in people:
       if isinstance(person, student):
