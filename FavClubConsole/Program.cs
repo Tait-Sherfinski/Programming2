@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace YourName
+namespace FavClubConsole
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.Write("Enter your name: ");
+            Console.Write("What is your favorite club/sport? ");
             Console.ReadLine();
         }
     }
