@@ -25,7 +25,16 @@ namespace Pg535CatchMe
 
         private void button1_MouseEnter(object sender, EventArgs e)
         {
-            int.intIndex = rand.Next(label1.Length);
+            int IntIndex = rand.Next(strCaption.Length);
+            button1.Text = strCaption[index];
+            button1.Left = rand.Next(this.Width - button1.Width);
+            button1.Top = rand.Next(this.Height - button1.Height);
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {}
+            private string[] strCaption = {"Click here", "try harder", "try again", "not even close", "where are you?", "i'm over here", "slow, aren't you?"};
+            private Random rand = new Random();
         }
     }
-}
+
