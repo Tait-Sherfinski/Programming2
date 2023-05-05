@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1AF9A97D-59D3-441C-BA12-889A9CBFB20C}</ProjectGuid>
+    <ProjectGuid>{25A32EEF-7A84-41DA-9492-87A38565BB0A}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Pg347Sum</RootNamespace>
-    <AssemblyName>Pg347Sum</AssemblyName>
+    <RootNamespace>Pg334LoanCalculator</RootNamespace>
+    <AssemblyName>Pg334LoanCalculator</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
