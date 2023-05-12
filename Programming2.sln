@@ -67,6 +67,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrInterview7", "StrIntervi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrInterview16", "StrInterview16\StrInterview16.csproj", "{A2C65162-2B54-4909-8D39-789759125D5A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringInterview8", "StringInterview8\StringInterview8.csproj", "{4E96C9F9-AF01-40BE-B235-448441894036}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -201,6 +203,10 @@ Global
 		{A2C65162-2B54-4909-8D39-789759125D5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2C65162-2B54-4909-8D39-789759125D5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2C65162-2B54-4909-8D39-789759125D5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E96C9F9-AF01-40BE-B235-448441894036}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E96C9F9-AF01-40BE-B235-448441894036}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E96C9F9-AF01-40BE-B235-448441894036}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E96C9F9-AF01-40BE-B235-448441894036}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
