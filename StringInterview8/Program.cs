@@ -11,16 +11,22 @@ namespace StringInterview8
         static void Main(string[] args)
         {
             Console.Write("Enter a string: ");
-            string text = Console.ReadLine();
-            Console.Write("What letter are you looking for? ");
-            string let = Console.ReadLine();
-
-            int a = 0;
-
-            for (int lcv = 0; lcv < text.Length; lcv++) {
-                char lett = text[lcv];
-                if (lett = "a") { a += 1;  }
+            string str = Console.ReadLine();
+            while (str.Length > 0)
+            {
+                Console.Write(str[0] + " = ");
+                int cal = 0;
+                for (int j = 0; j < str.Length; j++)
+                {
+                    if (str[0] == str[j])
+                    {
+                        cal++;
+                    }
+                }
+                Console.WriteLine(cal);
+                str = str.Replace(str[0].ToString(), string.Empty);
             }
+            Console.ReadLine();
         }
     }
 }

@@ -1,4 +1,4 @@
-﻿namespace Pg435TicketSales
+﻿namespace Pg435TicketSalesCS
 {
     partial class Form1
     {

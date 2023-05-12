@@ -70,7 +70,7 @@ namespace Pg334LoanCalculator
             textBox1.CausesValidation = false;
             textBox2.CausesValidation = false;
             textBox3.CausesValidation = false;
-            radioButton1.Checked = true;
+            radioButton1.Checked = false;
             dblAnnualRate = dblNEW_RATE;
             label5.Text = "";
             textBox1.Clear();

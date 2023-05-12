@@ -1,4 +1,4 @@
-﻿using System;
+﻿﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Pg435TicketSales
+namespace Pg435TicketSalesCS
 {
     public partial class Form1 : Form
     {
@@ -20,6 +20,7 @@ namespace Pg435TicketSales
         private void button1_Click(object sender, EventArgs e)
         {
             GeneralForm frm = new GeneralForm(this);
+            // frm = GeneralForm(self)
             frm.Show();
             this.Hide();
         }
